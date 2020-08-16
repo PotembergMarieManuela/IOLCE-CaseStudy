@@ -201,31 +201,23 @@ img
     .title
     {
         text-indent: -3.649rem;
+        font-size: 2.225rem;
     }
 
     .title--medium
     {
         text-indent: 0;
+        font-size: 2.025rem;
     }
 
-    h1
+    .title--small
     {
-        font-size: 3.318rem;
+        font-size: 1.8rem;
     }
 
-    h2
+    p, .paragraph
     {
-        font-size: 2.765rem;
-    }
-
-    h3
-    {
-        font-size: 2.304rem;
-    }
-
-    h4
-    {
-        font-size: 1.92rem;
+        font-size: 1.6rem;
     }
 
     .title, p, .list
@@ -238,29 +230,24 @@ img
 
 @media screen and (min-width: 1024px)
 {
-    h1
+    .title--big
     {
-        font-size: 5.052rem;
+        font-size: 2.563rem;
     }
 
-    h2
+    .title--medium
     {
-        font-size: 3.79rem;
+        font-size: 2.225rem;
     }
 
-    h3
+    .title--small
     {
-        font-size: 2.843rem;
+        font-size: 2.025rem;
     }
 
-    h4
+    p, .paragraph--modified
     {
-        font-size: 2.133rem;
-    }
-
-    p
-    {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 
     img
