@@ -1,6 +1,6 @@
 "use strict"
 
-const button = document.querySelector('.button--nav');
+const button = document.querySelector('.button-nav');
 const nav = document.querySelector('.nav');
 const body = document.querySelector('.body');
 

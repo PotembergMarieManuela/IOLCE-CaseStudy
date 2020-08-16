@@ -43,7 +43,7 @@ body
 
 /* BURGER MENU */
 
-.button--nav, .button--nav:active
+.button-nav, .button-nav:active
 {
     width: 3.5rem;
     height: 3.5rem;
@@ -58,7 +58,7 @@ body
     cursor: pointer;
 }
 
-.button--nav:hover
+.button-nav:hover
 {
     opacity: 50%;
 }
@@ -82,20 +82,20 @@ body
     transition-duration: 0.2s;
 }
 
-.nav--link
+.nav-link
 {
     color: #ffffff;
     padding: 1.6rem;
 }
 
-.nav--link:hover, .nav--link:active
+.nav-link:hover, .nav-link:active
 {
     background-color: #ffffff;
     color: #66002A;
     font-weight: bolder;
 }
 
-.nav--link:visited
+.nav-link:visited
 {
     color: #ffffff;
     background-color: #66002A;
@@ -111,18 +111,18 @@ body
     padding-bottom: 2.563rem;
 }
 
-.title--big
+.title__big
 {
     font-size: 2.278rem;
 }
 
-.title--medium
+.title__medium
 {
     font-size: 2.025rem;
     padding: 0;
 }
 
-.title--small
+.title__small
 {
     font-size: 1.8rem;
     padding: 2.563rem 0;
@@ -166,23 +166,23 @@ a
     text-decoration: none;
 }
 
-.footer--a
+.footer-a
 {
     color: #ffffff;
 }
 
-.footer--a:hover
+.footer-a:hover
 {
     color: #FFFFFF;
     font-weight: bolder;
 }
 
-.footer--a:active
+.footer-a:active
 {
     color: #DDE5F0;
 }
 
-.footer--a:visited
+.footer-a:visited
 {
     color: #A39986;
 }
@@ -204,18 +204,18 @@ img
         font-size: 2.225rem;
     }
 
-    .title--medium
+    .title__medium
     {
         text-indent: 0;
         font-size: 2.025rem;
     }
 
-    .title--small
+    .title__small
     {
         font-size: 1.8rem;
     }
 
-    p, .paragraph
+    p, .p--modified
     {
         font-size: 1.6rem;
     }
@@ -230,22 +230,22 @@ img
 
 @media screen and (min-width: 1024px)
 {
-    .title--big
+    .title__big
     {
         font-size: 2.563rem;
     }
 
-    .title--medium
+    .title__medium
     {
         font-size: 2.225rem;
     }
 
-    .title--small
+    .title__small
     {
         font-size: 2.025rem;
     }
 
-    p, .paragraph--modified
+    p, .p--modified
     {
         font-size: 1.8rem;
     }
